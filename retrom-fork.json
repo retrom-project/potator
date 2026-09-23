@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "forkRepository": "https://github.com/retrom-project/potator",
+  "defaultBranch": "retrom/g227c5f6f3ce7",
+  "upstreamMirrorBranch": "master",
+  "upstreams": [
+    {
+      "role": "libretro-core-gitlab",
+      "repository": "https://git.libretro.com/libretro/potator",
+      "refType": "COMMIT",
+      "ref": "227c5f6f3ce74d32e9002ce24c1420288559a860",
+      "commit": "227c5f6f3ce74d32e9002ce24c1420288559a860"
+    }
+  ],
+  "adapterAbi": "emulatorjs-state-v1",
+  "releaseAssets": [
+    "potator-wasm.data",
+    "LICENSE",
+    "source.tar.gz",
+    "rpg-runtime-release.json"
+  ]
+}
